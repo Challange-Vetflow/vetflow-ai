@@ -1,0 +1,11 @@
+prioridade,species,breed_size,age_months,expected_vaccine_interval_days,days_since_last_vaccine,days_since_last_consultation,missed_appointments_count,active_medication,adherence_score,behavior_alerts,vaccine_overdue_ratio,abandono_futuro,score_risco
+1,cachorro,pequeno,140,358,559,382,3,0,1.0,2,1.56,1,1.0
+2,cachorro,grande,128,306,579,355,2,0,0.67,1,1.89,1,1.0
+3,cachorro,grande,107,290,547,318,2,0,0.56,1,1.89,1,1.0
+4,cachorro,grande,142,307,505,288,2,0,0.58,1,1.64,1,0.999
+5,cachorro,grande,59,298,466,432,2,0,0.69,1,1.56,1,0.999
+6,cachorro,medio,161,354,497,407,2,0,0.54,1,1.4,1,0.999
+7,cachorro,medio,111,374,558,188,3,0,0.77,0,1.49,1,0.998
+8,cachorro,grande,115,290,454,432,2,0,0.73,0,1.57,1,0.998
+9,cachorro,pequeno,166,372,264,446,4,1,0.67,0,0.71,1,0.998
+10,cachorro,medio,158,374,394,29,3,0,0.41,1,1.05,1,0.997
