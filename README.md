@@ -53,33 +53,6 @@ Documentação completa do componente de IA (problema, dados, estratégia de per
 
 ## Como rodar
 
-### Pré-requisitos
-- Java 17+ e Maven (API principal)
-- .NET 8 SDK (API complementar)
-- Node.js 18+ e npm/yarn (app mobile)
-- Oracle Database (local ou instância na nuvem)
-- Python 3.10+ (protótipo de IA)
-- Docker (para subir os serviços containerizados)
-
-### API principal (Java)
-```bash
-cd api-java
-./mvnw spring-boot:run
-```
-
-### API complementar (.NET)
-```bash
-cd api-dotnet
-dotnet run
-```
-
-### App mobile (React Native)
-```bash
-cd mobile
-npm install
-npm start
-```
-
 ### Protótipo do componente de IA
 Abra `ai-prototipo/modelo_preditivo_prototipo.ipynb` no [Google Colab](https://colab.research.google.com/) (Arquivo → Fazer upload de notebook) carregue o arquivo csv e execute todas as células — `numpy`, `pandas` e `scikit-learn` já vêm instalados no Colab por padrão. Também roda localmente em Jupyter:
 ```bash
